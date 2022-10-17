@@ -1,0 +1,15 @@
+{
+  "name": "jsonserver2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jav.js",
+  "scripts": {
+    "start": "json-server --watch ./lib.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

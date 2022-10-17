@@ -1,0 +1,40 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    direction: ltr;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #efeded;
+  }
+
+  .backModal{
+    background-color: rgba(0, 0, 0, 0.457);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+  }
+
+  .myForm2{
+    height: auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    position: fixed;
+    top: 37%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+  }
